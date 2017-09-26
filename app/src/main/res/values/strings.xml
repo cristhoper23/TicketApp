@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ticket_App</string>
+    <string name="hintUser">User</string>
+    <string name="hintPass">Password</string>
+    <string name="btnLogin">Iniciar sesión</string>
+    <string name="recuperarPass">¿Olvidaste tu contraseña?</string>
+    <string name="crearCuenta">¿No estás registrado?</string>
+    <string name="imgDescription">Logo empresa</string>
+
+    <string-array name="rol">
+        <item>-</item>
+        <item>Cliente</item>
+        <item>Supervisor</item>
+        <item>Técnico</item>
+    </string-array>
+    <string name="btnSignUp">Registrarse</string>
+</resources>
