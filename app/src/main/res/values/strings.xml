@@ -14,4 +14,12 @@
         <item>Técnico</item>
     </string-array>
     <string name="btnSignUp">Registrarse</string>
+
+    <string name="GestionTicket">Gestión de tickets</string>
+    <string name="regTicket">Registrar</string>
+    <string name="consTicket">Consultar</string>
+    <string name="asigTicket">Asignar</string>
+    <string name="repTicket">Reporte</string>
+    <string name="atendTicket">Atender</string>
+    <string name="profile">Profile</string>
 </resources>

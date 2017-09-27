@@ -44,7 +44,12 @@ public class MainActivity extends AppCompatActivity {
             for (Usuario usuario : usuarios){
                 if (user.equals(usuario.getUsername()) && pass.equals(usuario.getPassword())) {
                     check = true;
-                    startActivity(new Intent(MainActivity.this, UserActivity.class));
+
+                    Intent intent = new Intent(MainActivity.this, UserActivity.class);
+                    String rol = usuario.getRol();
+                    intent.putExtra("rol", rol);
+
+                    startActivity(intent);
                     break;
                 }else{
                     check = false;

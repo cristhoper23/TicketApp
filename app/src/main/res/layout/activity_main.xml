@@ -11,9 +11,9 @@
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="170dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:contentDescription="@string/imgDescription"
-        android:src="@drawable/playing_games"
+        android:src="@drawable/bg_mbr"
         android:layout_gravity="center_horizontal"/>
 
     <android.support.design.widget.TextInputLayout
@@ -31,7 +31,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp">
+        android:paddingBottom="15dp">
         <EditText
             android:id="@+id/etPass"
             android:layout_width="match_parent"
@@ -41,10 +41,11 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        style="@style/CapitalizeButton"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/colorWhite"
         android:text="@string/btnLogin"
         android:layout_gravity="center_horizontal"
         android:onClick="logIn"/>
