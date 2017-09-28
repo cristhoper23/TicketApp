@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Original Theme-->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="colorDarkGreen">#3ebf4b</color>
+    <!-- Another theme-->
+    <color name="colorGreen">#02a95a</color>
+    <color name="colorGreenDark">#076f48</color>
+    <color name="colorGreenOil">#b6d56d</color>
+
     <color name="colorWhite">#ffffff</color>
 </resources>

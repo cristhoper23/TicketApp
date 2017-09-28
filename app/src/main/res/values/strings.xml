@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">Ticket_App</string>
-    <string name="hintUser">User</string>
-    <string name="hintPass">Password</string>
+    <string name="app_name">Easy Ticket</string>
+    <string name="hintUser">Usuario</string>
+    <string name="hintPass">Contraseña</string>
     <string name="btnLogin">Iniciar sesión</string>
     <string name="recuperarPass">¿Olvidaste tu contraseña?</string>
     <string name="crearCuenta">¿No estás registrado?</string>
     <string name="imgDescription">Logo empresa</string>
 
     <string-array name="rol">
-        <item>-</item>
+        <item>Seleccionar</item>
         <item>Cliente</item>
         <item>Supervisor</item>
         <item>Técnico</item>
@@ -21,5 +21,7 @@
     <string name="asigTicket">Asignar</string>
     <string name="repTicket">Reporte</string>
     <string name="atendTicket">Atender</string>
-    <string name="profile">Profile</string>
+    <string name="profile">Perfil</string>
+    <string name="config">Configuración</string>
+    <string name="salir">Salir</string>
 </resources>

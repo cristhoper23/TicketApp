@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="170dp"
-        android:layout_height="120dp"
+        android:layout_height="140dp"
         android:contentDescription="@string/imgDescription"
         android:src="@drawable/bg_mbr"
         android:layout_gravity="center_horizontal"/>
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/bg_button"
+        android:background="@color/colorGreen"
         android:textColor="@color/colorWhite"
         android:text="@string/btnLogin"
         android:layout_gravity="center_horizontal"
